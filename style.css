@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(248, 246, 246);
+    display: grid;
+}
+
+#header h1 {
+    width: 200px;
+    background: yellow;
+    height: 100px;
+    place-self: center; 
+    text-align: center;
+}
