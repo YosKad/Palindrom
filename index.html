@@ -11,10 +11,10 @@
     
       <h1>Palindrome</h1>
       <form id="login-form">
-        <label for="username">Enter A Word to check if it's palindrome</label
+        <label for="username">Enter A Word (contain letters only) to check if it's palindrome</label
         ><br />
-        <input type="text" id="palindrome" name="palindrome"  /> <br> <br>
-        <button onclick="checkPalindrom()" type="button">Check!</button>
+        <input type="text" id="palindrome" name="palindrome" pattern="[A-Za-z]+" oninput="validateInput()" /> <br> <br>
+        <button onclick="checkPalindrom()" type="button" id="checkButton">Check!</button>
       </form>
       <p id="result"></p>
 
